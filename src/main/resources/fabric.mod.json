@@ -3,9 +3,9 @@
 	"id": "jiro-weapon",
 	"version": "${version}",
 	"name": "Jiro Weapon",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "I made weapon yay",
 	"authors": [
-		"Me!"
+		"Boomjiro"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -18,6 +18,9 @@
 		"main": [
 			"net.boomjiro.jiroweapon.JiroWeapon"
 		],
+        "client": [
+          "net.boomjiro.jiroweapon.JiroWeaponClient"
+        ],
 		"fabric-datagen": [
 			"net.boomjiro.jiroweapon.JiroWeaponDataGenerator"
 		]
